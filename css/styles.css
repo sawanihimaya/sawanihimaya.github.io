@@ -4158,14 +4158,15 @@ textarea.form-control-lg {
 }
 .navbar-collapse {
   z-index: 1000;
-  background-color: rgba(242, 109, 7, 0.975); /* white with slight transparency */
+  background-color: rgba(242, 109, 7, 0.975); /* background with slight transparency */
 }
+
 @media (max-width: 768px) {
   .navbar-collapse {
     position: absolute;
     top: 60px; /* navbar height */
     width: 100%;
-    background-color:rgba(242, 109, 7, 0.975);
+    background-color: rgba(242, 109, 7, 0.975);
     z-index: 999;
   }
 
