@@ -4158,7 +4158,7 @@ textarea.form-control-lg {
 }
 .navbar-collapse {
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.95); /* white with slight transparency */
+  background-color: rgba(242, 109, 7, 0.975); /* white with slight transparency */
 }
 @media (max-width: 768px) {
   .navbar-collapse {
@@ -4170,7 +4170,7 @@ textarea.form-control-lg {
   }
 
   .header-content {
-    margin-top: 200px; /* add spacing to push content down */
+    margin-top: 30px; /* add spacing to push content down */
   }
 }
 
