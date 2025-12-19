@@ -10930,6 +10930,26 @@ p.lead {
     display: block;
   }
 }
+@media (max-width: 991px) {
+  #sideNav .navbar-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  #sideNav .img-profile {
+    width: 100px;  /* smaller on mobile */
+    height: 100px;
+  }
+
+  #sideNav {
+    text-align: center;
+    width: 100%;
+    height: auto; /* sidebar full height not needed */
+  }
+}
+
 .social-icons .social-icon {
   display: inline-flex;
   align-items: center;
@@ -10966,16 +10986,20 @@ section.resume-section .resume-section-content {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
+@media (max-width: 576px) {
+  .social-icons .social-icon {
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 767px) {
   section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
