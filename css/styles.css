@@ -4165,7 +4165,7 @@ textarea.form-control-lg {
     position: absolute;
     top: 60px; /* navbar height */
     width: 100%;
-    background-color: #fff;
+    background-color:rgba(242, 109, 7, 0.975);
     z-index: 999;
   }
 
